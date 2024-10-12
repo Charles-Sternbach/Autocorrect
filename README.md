@@ -4,14 +4,20 @@ typographical errors.
 
 How to run the program:
 - Provide the following inputs when prompted:
+
 Dictionary file => support_files/words_10percent.txt
+
 Input file      => support_files/input_words.txt
+
 Keyboard file   => support_files/keyboard.txt
 
 - You can change the dictionary file and the input file provided it
 meets the same specifications of the original files stated below.
 
+--
+
 To solve this problem, the program will read the names of three files:
+
 [1] A list of valid words and their frequencies - words_10percent.txt
 - Contains two entries per line; the first entry on the line is a
 single valid word in the English Language. The second entry is a float
@@ -35,8 +41,11 @@ so if you look down at your keyboard, you will see that the "a" key is
 surrounded by "q", "w", "s", and "z".
 Other substitutions were calculated similarly.
 
+--
+
 Correcting Words:
 To correct a single word, the following will be considered.
+
 [1] FOUND:
 - If the word is in the dictionary, it is correct. There is no need
 for a change. Print as found, and go onto the next word.
@@ -62,6 +71,8 @@ Store any valid words in some container. These will be candidate corrections.
 with any other letter from the possible replacements in the keyboard file.
 Store any valid words in some container. These will be candidate corrections.
 
+--
+
 After going through all of the above, if there are multiple potential matches,
 they will be sorted by their potential frequency from the English dictionary
 and return the top 3 values that are in most frequent usage as the most likely
@@ -71,6 +82,9 @@ If there are three or fewer potential matches, we will print them all in order.
 
 If there are no potential matches using any of the above corrections,
 we will print NOT FOUND. Otherwise, we will print the following on a single line.
+
 [1] The word.
+
 [2] The number of matches.
+
 [3] At most three matches.
