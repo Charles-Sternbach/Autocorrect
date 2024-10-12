@@ -28,10 +28,6 @@ def get_files():
     return dictionary_file, input_file, keyboard_file
 
 
-def correct_word(word):
-    pass
-
-
 def get_dictionary(dictionary_file):
     """Read provided dictionary file into a python dictionary.
 
