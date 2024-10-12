@@ -1,4 +1,5 @@
 Autocorrect Project:
+-
 - A small version of autocorrect that looks for a few common
 typographical errors.
 
@@ -14,9 +15,10 @@ Keyboard file   => support_files/keyboard.txt
 - You can change the dictionary file and the input file provided it
 meets the same specifications of the original files stated below.
 
---
+
 
 To solve this problem, the program will read the names of three files:
+-
 
 [1] A list of valid words and their frequencies - words_10percent.txt
 - Contains two entries per line; the first entry on the line is a
@@ -41,9 +43,9 @@ so if you look down at your keyboard, you will see that the "a" key is
 surrounded by "q", "w", "s", and "z".
 Other substitutions were calculated similarly.
 
---
 
 Correcting Words:
+-
 To correct a single word, the following will be considered.
 
 [1] FOUND:
